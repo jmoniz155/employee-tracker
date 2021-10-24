@@ -1,22 +1,26 @@
-DROP DATABASE IF EXISTS wallmart_db;
-CREATE DATABASE wallmart_db;
-USE wallmart_db;
+-- Create DataBase For Bicycle Shop --
+DROP DATABASE IF EXISTS employees_db;
+CREATE DATABASE employees_db;
+USE employees_db;
 
+-- Create Department --
 CREATE TABLE department (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(30),
+    PRIMARY KEY (id)
 );
 
+-- Create Role --
 CREATE TABLE role (
     id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(30) NOT NULL,
     salary DECIMAL NOT NULL,
     department_id INT NOT NULL,
-    FOREIGN KEY (department_id),
-    REFERENCES role(id),
-    ON DELETE SET NULL
+    FOREIGN KEY (department_id)
+    
 );
 
+-- Create Employee -- 
 CREATE TABLE employee (
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30);
