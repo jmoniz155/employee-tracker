@@ -1,7 +1,8 @@
-SELECT id, first_name, last_name FROM employees;
+SELECT  first_name, last_name, role_id from employee;
 
-SELECT 
-    id,
-    first_name,
-    last_name,
-FROM employees AS a JOIN employees ON role_id = department_id;
+SELECT
+    a.id,
+    a.first_name,
+    a.last_name,
+
+FROM employee AS a JOIN employee ON 
