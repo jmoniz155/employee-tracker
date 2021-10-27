@@ -8,11 +8,11 @@ This is a Employee Tracker application that allows a company to view and manage 
 
 ## Function
 
-This application allows a company to enter their database to view and modify their companys employees, departments, salary, tiles and roles while saving it into the server.
+This application allows a company to enter their database to view and modify their companys employees, departments, salary, tiles and roles while saving it in the server.
 
 ## Credits
 
-I would like to give credit to my Varsity Tutor for taking the time to help me use MySQL2, inquirer and the functions of the employeer tracker application.
+I would like to give credit to my Varsity Tutor for taking the time to help me understand use MySQL2, inquirer and the functions of the employeer tracker application.
 
 ## Table of Contents
 
