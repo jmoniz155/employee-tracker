@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jesse Moniz <jmoniz155@icloud.com> (https://https://github.com/jmoniz155/employee-tracker",
   "license": "ISC",
   "dependencies": {
     "console.table": "^0.10.0",
