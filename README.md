@@ -1,17 +1,17 @@
 # employee-tracker
 
 ## Description
-This is a simple Note Taker application that allows users to add, view saved notes and delete the notes. This application uses an express backend, HTML and CSs on the front end.
+This is a Employee Tracker application that allows a company to view and manage the departments, roles and employees in their database.
 
 ![](assets/12-sql-homework-demo-01.png)
 
 ## Function
 
-This note taker application allows users to add, delete and view saved notes by simply adding your title and your note in the provided sections.
+This application allows a company to enter their database to view and modify their companys employees, departments, salary, tiles and roles while saving it into the server.
 
 ## Credits
 
-I would like to give credit to my Varsity Tutor 
+I would like to give credit to my Varsity Tutor for taking the time to help me use MySQL2, inquirer and the functions of the employeer tracker application.
 
 ## Table of Contents
 
@@ -30,24 +30,22 @@ I would like to give credit to my Varsity Tutor
 
 ## Study-Material
 
-[BootStrap](https://getbootstrap.com/)
+[Mysql2](https://www.npmjs.com/package/mysql2)
 
 [Inquirer](https://www.npmjs.com/package/inquirer)
 
-[Path](https://www.npmjs.com/package/path)
+[Mysql2 Installation Guide](https://coding-boot-camp.github.io/full-stack/mysql/mysql-installation-guide)
 
-[NodeJs](https://nodejs.org/api/fs.html)
+[NodeJs](https://www.google.com/search?q=mysql+-u+root+-p&rlz=1C1ASVC_enUS967US967&sxsrf=AOaemvLrTJT2CHxL-_KJLeViMlGfn1MKLw%3A1635299497241&ei=qbB4YdyYDr-q0PEPmqK-yAU&oq=mysql+)
 
-[Jumbotron](https://getbootstrap.com/docs/4.0/components/jumbotron/)
+[Mysql2 Creating Tables](https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html)
 
-[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+[Mysql2 Join](https://dev.mysql.com/doc/refman/8.0/en/join.html)
 
-[Understanding Module Exports](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
-
-[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
 ## Features
-This note-taker was built with MySQL, Node.js Inquirer.
+
+This app was built using MySql2, javascript and Inquirer package.
 
 ## Links
 
@@ -55,6 +53,6 @@ This note-taker was built with MySQL, Node.js Inquirer.
 
 [Demo-Video]()
 
-[Heroku-Link]()
+
 
 

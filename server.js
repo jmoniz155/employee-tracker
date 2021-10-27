@@ -41,13 +41,17 @@ function viewAllEmployee() {
   return db
     .promise()
     .query(
-    `select
-    a.id, 
-    CONCAT(a.first_name, " ", a.last_name) AS name,
-    CONCAT(b.first_name, " ", b.last_name) AS manager,
-    role.title as role, role.salary, department from employee AS b on a.manager_id = b.id
-    JOIN role on a.role_id + role id
-    JOIN department on role.department_id = department.id;`
+     `select
+     a.id, 
+     CONCAT(a.first_name, " ", a.last_name) AS name,
+     CONCAT(b.first_name, " ", b.last_name) AS manager,
+     role.title as role, 
+     role.salary, 
+     department.name as department
+     from employee AS a LEFT JOIN AS b
+     ON a.manager_id = b.id
+     JOIN role on a.role_id = role.id
+     JOIN department on role.department_id = department.id;`
   )
 
   .then(([rows]) => {
@@ -187,12 +191,12 @@ function generalMenu() {
           break;
         default:
           db.end();
-          console.log("Goodbye!");
+          console.log("Have a Nice Day Good bye!");
       }
     });
 }
 
-console.log("Welcome to the Department Database!");
+console.log("Welcome to the Employee Database!");
        generalMenu();
 
 
