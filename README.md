@@ -8,7 +8,7 @@ This is a Employee Tracker application that allows a company to view and manage 
 
 ## Function
 
-This application allows a company to enter their database to view and modify their companys employees, departments, salary, tiles and roles while saving it in the server.
+This application allows a company to enter their database to view and modify their companys employees, departments, salary, titles and roles.  After typing in npm start from the command line it will ask a series of prompts to the user.  You can view, departments, roles and employees, you can also add a role, a department, an employee and their salaries. It will then save it in the database and allow you to view it anytime by typing npm start from the command line.
 
 ## Credits
 
@@ -26,7 +26,7 @@ I would like to give credit to my Varsity Tutor for taking the time to help me u
 
 [Repository](https://github.com/jmoniz155/employee-tracker)
 
-[Demo-Video]()
+[Demo-Video](https://watch.screencastify.com/v/OEdfoUpx34shqFaHZGnS)
 
 
 ## Study-Material
@@ -46,13 +46,13 @@ I would like to give credit to my Varsity Tutor for taking the time to help me u
 
 ## Features
 
-This app was built using MySql2, javascript and Inquirer package.
+This app was built using MySql2, Node, javascript and Inquirer package.
 
 ## Links
 
 [Repository](https://github.com/jmoniz155/employee-tracker)
 
-[Demo-Video]()
+[Demo-Video](https://watch.screencastify.com/v/OEdfoUpx34shqFaHZGnS)
 
 
 
