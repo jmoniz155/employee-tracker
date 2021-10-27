@@ -40,21 +40,8 @@ function viewAllRoles() {
 function viewAllEmployee() {
   return db
     .promise()
-    .query(
-     `select
-     a.id, 
-     CONCAT(a.first_name, " ", a.last_name) AS name,
-     CONCAT(b.first_name, " ", b.last_name) AS manager,
-     role.title as role, 
-     role.salary, 
-     department.name as department
-     from employee AS a LEFT JOIN AS b
-     ON a.manager_id = b.id
-     JOIN role on a.role_id = role.id
-     JOIN department on role.department_id = department.id;`
-  )
-
-  .then(([rows]) => {
+    .query("SELECT * FROM employee;")
+    .then(([rows]) => {
     console.table(rows);
     return generalMenu();
   })
@@ -191,14 +178,13 @@ function generalMenu() {
           break;
         default:
           db.end();
-          console.log("Have a Nice Day Good bye!");
+          console.log("Have a Nice Day Good Bye!");
       }
     });
 }
 
-console.log("Welcome to the Employee Database!");
+console.log("Welcome to the Bicycle Shop Employee Database!");
        generalMenu();
-
 
 
 

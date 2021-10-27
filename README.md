@@ -4,6 +4,7 @@
 This is a Employee Tracker application that allows a company to view and manage the departments, roles and employees in their database.
 
 ![](assets/12-sql-homework-demo-01.png)
+![](assets/emp.tracker.JPG)
 
 ## Function
 
